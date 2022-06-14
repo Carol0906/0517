@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/parallaxie.min.js"></script>
+<script src="js/wow.min.js"></script>
+</head>
+
+<body class="colT">
+<nav>
+     <h3 class="right"><a href="#">苗栗舊山線鐵道之旅</a></h3>
+  <ul>
+    <li><a href="#a01">歷史簡介</a></li>
+    <li><a href="#a02">路線圖</a></li>
+    <li><a href="#a03">相關影片</a></li>
+    <li><a href="#a04">地理位址</a></li>
+    <li><a href="#a05">引用來源</a></li>
+  </ul>
+</nav>
+<header>
+  <h1 class="wow bounceInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">苗栗舊山線鐵道之旅</h1>
+  <p><a href="https://www.oml-railbike.com/_pages/info/index.php" target="_blank" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">相關資訊&nbsp;&nbsp;</a></p>
+</header>
+<main>
+ <article id="a01">
+   <h2>歷史簡介</h2>
+   <div class="container1">
+      <div class="left wow slideInLeft" date-wow-offset="100">舊山線於1908年建造完成，在架橋技術未成熟的年代，前人創造出「最大坡度、最大彎道、最長花樑鋼橋、最長隧道群」的偉大經典之作。從苗栗縣三義一路蜿蜒至臺中市后里區，沿線經過兩個車站－勝興與泰安舊站、三座鐵橋－龍騰斷橋、鯉魚潭橋、大安溪橋與八個隧道，沿線景觀多變。
+      </div>
+      <div class="right wow slideInRight" date-wow-offset="200"></div>
+    </div>   
+  </article>
+  <article class="路線圖" id="a02">
+    <h2>路線圖</h2>
+    <div class="container2">
+      <div class="col01 wow bounceIn" data-wow-delay="0.3s">
+        <div class="colT">Ａ路線</div>
+      </div>
+      <div class="col02 wow bounceIn">
+        <div class="colT">Ｂ路線</div>
+      </div>
+      <div class="col03 wow bounceIn" data-wow-delay="0.5s">
+        <div class="colT">Ｃ路線</div>
+      </div>
+    </div>    
+  </article>
+  <article id="a03">
+    <h2>相關影片</h2>
+      <div class="container3">
+    <video width="500" controls="controls">
+      <source src="assets/videoplayback.mp4" type="video/mp4">
+    </video>
+          </div>
+  </article>
+    <article id="a04" style="padding-bottom: 0px">
+    <h2>地理位置</h2>    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3633.8017221401524!2d120.77978711443019!3d24.388200070029715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469058e6162987f%3A0x2b2f38de931af7c0!2z6IiK5bGx57ea6ZC16YGT6Ieq6KGM6LuKLeWLneiIiOermQ!5e0!3m2!1szh-TW!2stw!4v1646749112797!5m2!1szh-TW!2stw" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="wow jello"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.620588081354!2d120.77210561442968!3d24.359705771144423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34690418138a927f%3A0x4e258aa69595ff3f!2z6b6N6aiw5pa35qmLKOmtmuiXpOWdquaWt-apiyk!5e0!3m2!1szh-TW!2stw!4v1646749388068!5m2!1szh-TW!2stw" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="wow jello"></iframe>
+    </article>
+   <article>
+   <h3 id="a05">引用來源</h3>
+   <li>https://www.oml-railbike.com/_pages/info/index.php</li>
+   <li>https://www.youtube.com/watch?v=SOE7jbyAg0A</li>
+  </article>
+</main>    
+<footer> <h5>&copy;2022</h5></footer>    
+<script>
+$('header').parallaxie({speed: 0.5, offset: -50,});
+</script> 
+<script>
+$('.course').parallaxie({speed: 0.7, offset: -100,});
+</script> 
+<script>
+	new WOW().init();
+</script>
+</body>
+</html>
+
